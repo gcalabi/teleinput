@@ -38,7 +38,7 @@ public class Application {
         try {
 
             System.out.println("Listening for connection on port 8081 ....");
-            final ServerSocket server = new ServerSocket(8081);
+            final ServerSocket server = new ServerSocket(8080);
             // spin forever
             while (true) {
                 Socket clientSocket = server.accept();
